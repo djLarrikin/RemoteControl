@@ -8,9 +8,8 @@ import android.view.MenuItem;
 import android.view.Window;
 
 
-public class RemoteControlActivity extends Activity {
+public class RemoteControlActivity extends SingleFragmentActivity{
 
-    @Override
     protected Fragment createFragment(){
         return new RemoteControlFragment();
     }
